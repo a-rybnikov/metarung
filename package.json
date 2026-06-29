@@ -1,0 +1,19 @@
+{
+  "name": "operator-agent-loop",
+  "version": "0.1.0",
+  "description": "A bidirectional formalization loop between an operator/agent and a ladder of formal languages: surface (TS) -> logic (Prolog) -> meta (Lisp) -> back. Categories emerge bottom-up. Worked case: cooperationengine #19 ethical space.",
+  "license": "MIT",
+  "author": "Aleksei Rybnikov",
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/loop.ts",
+    "serve": "tsx src/serve.ts"
+  },
+  "dependencies": {
+    "tau-prolog": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.19.0"
+  }
+}
