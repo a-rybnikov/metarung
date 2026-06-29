@@ -1,7 +1,7 @@
 {
-  "name": "operator-agent-loop",
+  "name": "metarung",
   "version": "0.1.0",
-  "description": "A bidirectional formalization loop between an operator/agent and a ladder of formal languages: surface (TS) -> logic (Prolog) -> meta (Lisp) -> back. Categories emerge bottom-up. Worked case: cooperationengine #19 ethical space.",
+  "description": "Tarski's Ladder — a formalization loop that derives an ethical space instead of imposing one. An intuition climbs a ladder of formal languages (surface TS -> logic Prolog -> meta Lisp) and returns carrying structure that emerged bottom-up. Worked case: cooperationengine #19 ethical space.",
   "license": "MIT",
   "author": "Aleksei Rybnikov",
   "type": "module",

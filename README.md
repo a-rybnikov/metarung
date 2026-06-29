@@ -1,7 +1,10 @@
-# operator–agent rigor loop
+# metarung
+
+### Tarski's Ladder — a formalization loop that derives an ethical space instead of imposing one
 
 A bidirectional **formalization loop** between an operator (or an agent/LLM) and a ladder of
-formal languages. An informal intuition enters at the surface, is lifted up the ladder to where
+formal languages. The name: each rung is a *meta* step up the ladder, and the whole point is the
+ascent to a metalanguage. An informal intuition enters at the surface, is lifted up the ladder to where
 it can be reasoned about rigorously, and returns as something actionable — now carrying logical
 structure that **emerged from the data rather than being imposed**.
 
