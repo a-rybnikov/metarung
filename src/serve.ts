@@ -38,7 +38,7 @@ function page(t: Trace): string {
 
   return `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>operator–agent rigor loop</title>
+<title>metarung — Tarski's Ladder</title>
 <style>
   :root{--bg:#0d1117;--fg:#c9d1d9;--mut:#8b949e;--acc:#58a6ff;--emg:#3fb950;--ten:#f0883e;--card:#161b22;--bd:#30363d}
   *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);
@@ -61,7 +61,7 @@ function page(t: Trace): string {
   .flag{color:var(--fg)} .note{color:var(--ten);font-size:13px}
   footer{color:var(--mut);font-size:12px;margin-top:22px;text-align:center}
 </style></head><body><div class="wrap">
-  <h1>operator–agent rigor loop</h1>
+  <h1>metarung <span style="color:var(--mut);font-weight:400;font-size:15px">· Tarski's Ladder</span></h1>
   <p class="sub">An intuition climbs a ladder of formal languages and returns carrying structure
   that <b>emerged</b> from the data rather than being imposed — the Gödel/Tarski move as a running pipeline.</p>
   <div class="ladder">⟱ ascend: NL &rarr; <b>TS</b> &rarr; <b>Prolog</b> &rarr; <b>Lisp/meta</b> &nbsp;·&nbsp; descend: meta &rarr; gate &rarr; <b>flagship</b> &rarr; NL ⟰</div>

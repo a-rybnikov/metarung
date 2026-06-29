@@ -3,3 +3,7 @@ states.json
 *.log
 .DS_Store
 .env
+
+# personal: russian translation kept local, not published
+paper/*.ru.md
+paper/*.ru.docx
